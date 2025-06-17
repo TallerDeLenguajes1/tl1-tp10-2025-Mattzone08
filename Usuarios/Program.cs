@@ -9,7 +9,7 @@ HttpResponseMessage respuesta = await ClienteConsumo.GetAsync(UrlApi); // Realiz
 respuesta.EnsureSuccessStatusCode(); // Comprueba que la respuesta de la api sea valida, caso contrario larga una excepcion :(
 
 string CuerpoRespuesta = await respuesta.Content.ReadAsStringAsync(); // convierte el cuerpo de la respuesta a string para poder deserializarla y instanciarla en la clases necesaria
-List<Usuario> listUsuariotemp = JsonSerializer.Deserialize<List<Usuario>>(CuerpoRespuesta); // Deserealiza el CuerpoRespuesta que ya esta en string y los instancia en una lista de la clase tarea
+List<Usuario> listUsuariotemp = JsonSerializer.Deserialize<List<Usuario>>(CuerpoRespuesta); // Deserealiza el CuerpoRespuesta que ya esta en string y los instancia en una lista de la clase Usuario
 
 Usuario[] listUsuario = new Usuario[5]; // declaro un arreglo del la clase usuario para asi tener los 5 que necesito 
 

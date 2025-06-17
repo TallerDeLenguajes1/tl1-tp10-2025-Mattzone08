@@ -1,0 +1,54 @@
+{
+  "error": false,
+  "amount": 3,
+  "jokes": [
+    {
+      "category": "Misc",
+      "type": "single",
+      "joke": "Una ardilla le pregunta a otra que quiere ser cuando grande, la otra ardilla de responde \u0022Ardila L\u00FClle\u0022.",
+      "flags": {
+        "nsfw": true,
+        "religious": false,
+        "political": true,
+        "racist": false,
+        "sexist": false,
+        "explicit": null
+      },
+      "id": 0,
+      "safe": false,
+      "lang": "es"
+    },
+    {
+      "category": "Programming",
+      "type": "single",
+      "joke": "No te despedir\u00E1n del trabajo, si nunca comentas tu c\u00F3digo y adem\u00E1s eres el \u00FAnico que sabe c\u00F3mo funciona",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "id": 3,
+      "safe": true,
+      "lang": "es"
+    },
+    {
+      "category": "Programming",
+      "type": "single",
+      "joke": "S\u00F3lo hay 10 tipos de personas en este mundo, las que entienden binario y las que no.",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "id": 5,
+      "safe": true,
+      "lang": "es"
+    }
+  ]
+}
